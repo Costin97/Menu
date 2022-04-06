@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+.currencyList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  margin-top: 16px;
+}
+.currencyLabel {
+  margin-bottom: 8px;
+  font-style: italic;
+  font-size: 16px;
+  font-weight: bold;
+}
+.currency {
+  border-radius: 8px;
+  padding: 4px;
+}
+.defaultCurrency {
+  font-size: 10px;
+  font-style: italic;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 40vw;
+  height: 100vh;
+}
+
+.productBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  border-style: solid;
+  border-width: 0.5px;
+  margin-bottom: 8px;
+  padding: 4px;
+}
+
+.specialBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.productButton {
+  margin-left: 16px;
+  border: none;
+  padding: 8px;
+  border-radius: 8px;
+  background-color: #00a300;
+}
+
+.productButton:hover {
+  cursor: pointer;
+  background-color: black;
+  color: #00a300;
+}
+
+.elementsBox {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.cartBox {
+  background-color: #dddde5;
+  min-width: 30vw;
+  height: 20vh;
+  margin-right: 80px;
+  border-radius: 16px;
+}
+
+.cartBox p {
+  text-align: center;
+}
+
+.displayNone {
+  display: none;
+}
+
+.cartWithElements {
+  background-color: #dddde5;
+  min-width: 40vw;
+  margin-right: 80px;
+  border-radius: 16px;
+  font-family: "Roboto", sans-serif;
+}
+.cartWithElements h1 {
+  font-size: 16px;
+}
+
+.boxDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.valueBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.product {
+  margin-bottom: 0;
+}
+
+.quantity {
+  margin-right: 24px;
+  margin-bottom: 0;
+}
+.value {
+  margin-bottom: 0;
+}
+
+.productBoxCart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  margin-bottom: 8px;
+  padding: 8px;
+}
+
+.productBoxCartDisplayNone {
+  display: none;
+}
+
+.cartTitle {
+  padding: 8px;
+}
+
+.boxDetails {
+  padding: 8px;
+}
+
+.specialBoxCart {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.productNameCart {
+  font-weight: bold;
+}
+
+.deleteIcon {
+  margin-right: 8px;
+}
+
+.deleteIcon:hover {
+  cursor: pointer;
+}
+
+.cartInput {
+  display: flex;
+  justify-self: flex-end;
+  text-align: center;
+  width: 10%;
+  margin-right: 16px;
+}
+
+.hrLine {
+  margin-bottom: 16px;
+}
+
+.totalPriceBox {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 16px;
+  padding: 8px;
+  font-weight: bold;
+}
+
+.cartButtonBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.continueButton {
+  background-color: #00a300;
+  color: white;
+  border: none;
+  padding: 16px;
+  width: 50%;
+  margin-bottom: 16px;
+  border-radius: 8px;
+}
+
+.continueButton:hover {
+  cursor: pointer;
+  background-color: #ccc;
+  color: black;
+}
+
+.tooltipBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tooltipText {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+
+.tooltipIcon {
+  margin-left: 8px;
+}
